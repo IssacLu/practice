@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id="list">
+    <li>
+        <input type="button" value="-">
+        <strong>0</strong>
+        <input type="button" value="+">
+        单价：<span>12.5</span>
+        总价：<em>0</em>
+    </li>
+    <li>
+        <input type="button" value="-">
+        <strong>0</strong>
+        <input type="button" value="+">
+        单价：<span>19.7</span>
+        总价：<em>0</em>
+    </li>
+    <li>
+        <input type="button" value="-">
+        <strong>0</strong>
+        <input type="button" value="+">
+        单价：<span>13.8</span>
+        总价：<em>0</em>
+    </li>
+    <li>
+        <input type="button" value="-">
+        <strong>0</strong>
+        <input type="button" value="+">
+        单价：<span>10</span>
+        总价：<em>0</em>
+    </li>
+</ul>
+<div>
+    商品合计共<span id="span1">0</span>件
+<br/>
+    商品合计共<span id="span2">0</span>元
+    <br/>
+    商品最高的单价是<span id="span3">0</span>
+
+</div>
+<script>
+    window.onload=function () {
+        var oul=document.getElementById('list');
+        var ali=oul.getElementsByTagName('li');
+        var as1=document.getElementById('span1');
+        var as2=document.getElementById('span2');
+        var as3=document.getElementById('span3');
+        for(i=0;i<ali.length;i++){
+            count(ali[i]);
+           /* var m=0;
+            alert(ali[i].num1);
+            m+=ali[i].num1;
+
+            as1.innerHTML=m;
+            */
+        }
+        function count(oli) {
+            var abtn=oli.getElementsByTagName('input');
+            var astrong=oli.getElementsByTagName('strong')[0];
+            var aspan=oli.getElementsByTagName('span')[0];
+            var aem=oli.getElementsByTagName('em')[0];
+            var num1=parseInt(astrong.innerHTML);
+            var num2=aspan.innerHTML;
+            abtn[1].onclick=function () {
+                num1++;
+                astrong.innerHTML=num1;
+                aem.innerHTML=num1*num2;
+
+                as1.innerHTML = num1;
+                result();
+            }
+            abtn[0].onclick=function () {
+                num1--;
+                if(num1<0){
+                    num1=0
+                }
+                astrong.innerHTML=num1;
+                aem.innerHTML=num1*num2;
+                result();
+            }
+
+        }
+        function result() {
+            var aStrong = oul.getElementsByTagName('strong');
+            var aEm=oul.getElementsByTagName('em');
+            var total=0;
+            var cost=0;
+            var ss=[];
+            for(i=0;i<ali.length;i++) {
+                total += parseInt(aStrong[i].innerHTML);
+                cost  +=parseFloat(aEm[i].innerHTML);
+                as1.innerHTML = total;
+                as2.innerHTML=cost;
+                if(aStrong[i].innerHTML){
+                    ss[ss.length]=parseFloat(oul.getElementsByTagName('span')[i].innerHTML);
+
+                }
+            }
+            ss.sort();
+           // alert(ss[ss.length-1]);
+            as3.innerHTML=ss[ss.length-1];
+        }
+
+    }
+</script>
+</body>
+</html>

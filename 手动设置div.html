@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .but{
+        background: red;
+        height: 30px;
+    }
+    .div1{
+        width: 320px;
+        height: 160px;
+        background-color: rgba(205,229,208,0.82);
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+
+    .div3{
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .div4{
+        float: left;
+        width: 45px;
+        height:25px;
+        color: white;
+        text-align: center;
+        margin-right: 20px;
+        margin-top: 10px;
+        background: gainsboro;
+    }
+    .input1{
+        background: blue;
+        color: white;
+        margin-top: 20px;
+    }
+
+</style>
+<body>
+<span>
+  请为下面的DIV设置样式 ：
+</span>
+    <input type="button" value="点击设置" class="but" id="obut">
+<div style="border: 2px solid black; width: 100px; height: 100px;" id="div"></div>
+<div class="div1" style="display: none" id="odiv">
+    <div class="div2">
+        <div class="div3">请选择背景色：</div>
+        <div class="div4" style="background:cornflowerblue" id="odiv2" >蓝</div>
+        <div class="div4" style="background: red" id="odiv3">红</div>
+        <div class="div4" style="background: yellow" id="odiv4">黄</div>
+    </div>
+    <div>
+        <div class="div3">请选择宽(px)：</div>
+        <div class="div4" id="div1">200</div>
+        <div class="div4" id="div2">300</div>
+        <div class="div4" id="div3">400</div>
+    </div>
+    <div>
+        <div class="div3" >请选择高(px)：</div>
+        <div class="div4" id="div4">200</div>
+        <div class="div4" id="div5">300</div>
+        <div class="div4" id="div6">400</div>
+    </div>
+    <input type="button" value="恢复" class="input1" style="margin-left: 90px" id="but1">
+    <input type="button" value="确定" class="input1" style="margin-left: 60px" id="but2">
+</div>
+<script>
+    var a=document.getElementById('obut');
+    function show() {
+        document.getElementById('odiv').style.display='block';
+    }
+    a.onclick=show;
+    var b=document.getElementById('odiv2');
+    function aa(){
+        document.getElementById('div').style.background='blue';
+    }
+    b.onclick=aa;
+    var d=document.getElementById('odiv3');
+    var e=document.getElementById('odiv4');
+    function bb(){
+        document.getElementById('div').style.background='red';
+    }
+    d.onclick=bb;
+    function dd(){
+        document.getElementById('div').style.background='yellow';
+    }
+    e.onclick=dd;
+    var f=document.getElementById('div1');
+    var g=document.getElementById('div2');
+    var h=document.getElementById('div3');
+    function ee(){
+        document.getElementById('div').style.width='200px';
+    }
+    f.onclick=ee;
+    function ff(){
+        document.getElementById('div').style.width='300px';
+    }
+    g.onclick=ff;
+    function gg(){
+        document.getElementById('div').style.width='400px';
+    }
+    h.onclick=gg;
+    var i=document.getElementById('div4');
+    var j=document.getElementById('div5');
+    var k=document.getElementById('div6');
+    function hh(){
+        document.getElementById('div').style.height='200px';
+    }
+    i.onclick=hh;
+    function ii(){
+        document.getElementById('div').style.height='300px';
+    }
+    j.onclick=ii;
+    function kk(){
+        document.getElementById('div').style.height='400px';
+    }
+    k.onclick=kk;
+    var c=document.getElementById('but1');
+    function cc(){
+        document.getElementById('div').style.background='white';
+        document.getElementById('div').style.width='100px';
+        document.getElementById('div').style.height='100px';
+    }
+    c.onclick=cc;
+    var m=document.getElementById('but2');
+    function mm(){
+        document.getElementById('odiv').style.display='none';
+    }
+    m.onclick=mm;
+</script>
+</body>
+</html>
+

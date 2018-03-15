@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #bg{
+        background: url("http://fantaghiro.github.io/miaov/JS_Basic_Lessons/1-img/mobile.png");
+        width: 292px;
+        height: 595px;
+
+
+    }
+    #con{
+        width: 239px;
+        height: 380px;
+        border: 1px black solid;
+        margin-left: 23px;
+        margin-top: 83px;
+        position:absolute;
+        overflow:auto;
+    }
+    #message{
+        width: 239px;
+        height: 42px;
+        background: gainsboro;
+        margin-left: 26px;
+        margin-top: 465px;
+        position: absolute;
+    }
+    #input1{
+        height: 25px;
+        margin-top: 5px;
+        width: 140px;
+        position: absolute;
+        margin-left: 5px;
+    }
+    #input2{
+        height: 30px;
+        margin-left: 155px;
+        margin-top: 5px;
+        position: absolute;
+    }
+    #img1{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+   #span1{
+        background: greenyellow;
+        color: rgba(66,75,73,0.82);
+        font-size: 20px;
+        font-family: 宋体;
+        display: inline-block;
+       max-width: 150px;
+       margin-left: 5px;
+       margin-bottom: 5px;
+       word-wrap: break-word;
+       overflow:hidden;
+    }
+    #span2{
+        background-color: dimgray;
+        color: limegreen;
+        font-size: 20px;
+        font-family: 宋体;
+        max-width:150px;
+        margin-right: 5px;
+        display: inline-block;
+        position: absolute;
+        right: 40px;
+        margin-bottom: 5px;
+        word-wrap: break-word;
+        overflow:hidden;
+    }
+
+</style>
+
+<body>
+<div id="bg">
+    <div id="con">
+
+    </div>
+    <span id="message">
+        <img id="img1" src="http://fantaghiro.github.io/miaov/JS_Basic_Lessons/1-img/expression2.png">
+        <input id="input1" type="text">
+        <input id="input2" value="发送" type="button">
+    </span>
+</div>
+<script>
+
+    var a=document.getElementById('img1');
+    var b=document.getElementById('input1');
+    var c=document.getElementById('input2');
+    var e=document.getElementById('con');
+    var bb=['http://fantaghiro.github.io/miaov/JS_Basic_Lessons/1-img/expression2.png','http://fantaghiro.github.io/miaov/JS_Basic_Lessons/1-img/expression1.png']
+    var i=0;
+    a.onclick=function() {
+        ++i;
+        i<bb.length||(i=0);
+        a.src=bb[i];
+    }
+
+        c.onclick = function () {
+            if (b.value=='') {
+
+                alert("请输入内容");
+            }
+            else if(a.src==bb[0]){
+                e.innerHTML = e.innerHTML + '<br/>' +
+                    '<img src="http://fantaghiro.github.io/miaov/JS_Basic_Lessons/1-img/expression2.png" style="height: 30px; width: 30px;margin-left: 10px"/>'
+                    +'<span id="span1">'+b.value+'</span>';
+                b.value='';
+              // span.className='span';
+            }
+            else {
+                e.innerHTML =e.innerHTML +'</br>'+'<span id="span2">'+b.value+'</span>'+
+                    '<img src="http://fantaghiro.github.io/miaov/JS_Basic_Lessons/1-img/expression1.png" style="height: 30px; width: 30px;position: absolute;left: 200px"/>'+'</br>';
+                b.value='';
+
+            };
+
+        }
+
+
+</script>
+</body>
+</html>
