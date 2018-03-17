@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7fb0f359-fbe3-426b-8ebd-4dfd3907fadf" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img (1)/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img (1)/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img (1)/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img (1)/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img (1)/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img (1)/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img3/影像课程.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img3/成绩查询.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img3/成长状态.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img3/报名.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img3/用户.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img3/登录.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img3/网上党课.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img3/证书查询.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img3/通知.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.idea/wang.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/.postcssrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/README - 副本.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/build/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/build/check-versions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/build/dev-client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/build/dev-server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/build/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/build/vue-loader.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/build/webpack.base.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/build/webpack.dev.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/build/webpack.prod.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/build/webpack.test.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/config/dev.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/config/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/config/prod.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/config/test.env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/dist.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/App.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/common/js/velocity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/chooseticket/chooseticket.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/index/ad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/index/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/index/index.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/layout/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/layout/defaultavatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/layout/layout.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/layout/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/organization/check_tickets.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/organization/edittickets.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/organization/organization.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/organization/organizationinfo.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/organization/publish_ticket.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/orginnizationlogin/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/orginnizationlogin/obackground.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/orginnizationlogin/orginnizationlogin.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/user/notice.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/user/personinfo.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/user/ticketsinfo.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/components/user/user.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/src/router/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/static/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/static/blue_ticket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/static/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/static/grey_ticket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/static/red_ticket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/test/e2e/custom-assertions/elementCount.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/test/e2e/nightwatch.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/test/e2e/runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/test/e2e/specs/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/test/unit/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/test/unit/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/test/unit/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/王冠/test/unit/specs/Hello.spec.js" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="jianshu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="电子时钟和日历.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/电子时钟和日历.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#118#260#0" expanded="false" />
+                <element signature="e#269#347#0" expanded="false" />
+                <element signature="e#358#460#0" expanded="false" />
+                <element signature="e#475#528#0" expanded="false" />
+                <element signature="e#543#593#0" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2016#2388#0" expanded="false" />
+                <element signature="e#2675#3118#0" expanded="false" />
+                <element signature="e#2701#2900#0" expanded="false" />
+                <element signature="e#2914#3112#0" expanded="false" />
+                <element signature="e#3172#3296#0" expanded="false" />
+                <marker date="1521277829181" expanded="false" signature="1815:2444" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/weilie.html" />
+        <option value="$PROJECT_DIR$/jianshu.html" />
+        <option value="$PROJECT_DIR$/电子时钟和日历.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="D:/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js-jscs-nodeInterpreter" value="D:\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fb0f359-fbe3-426b-8ebd-4dfd3907fadf" name="Default" comment="" />
+      <created>1521119889695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521119889695</updated>
+      <workItem from="1521119891975" duration="17978000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17978000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1378" height="754" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20827068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/weilie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电子时钟和日历.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#118#260#0" expanded="false" />
+            <element signature="e#269#347#0" expanded="false" />
+            <element signature="e#358#460#0" expanded="false" />
+            <element signature="e#475#528#0" expanded="false" />
+            <element signature="e#543#593#0" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2016#2388#0" expanded="false" />
+            <element signature="e#2675#3118#0" expanded="false" />
+            <element signature="e#2701#2900#0" expanded="false" />
+            <element signature="e#2914#3112#0" expanded="false" />
+            <element signature="e#3172#3296#0" expanded="false" />
+            <marker date="1521277829181" expanded="false" signature="1815:2444" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

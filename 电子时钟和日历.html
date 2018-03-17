@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .total{
+        background-image: url("date.jpg");
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .dot{
+        width: 30px;
+        height: 50px;
+        text-align: center;
+    }
+    #clock{
+        width: 500px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    #clock div{
+        float: left;
+        font-size: 90px;
+    }
+    #h, #m ,#s{
+       background: rgba(198,255,242,0.1);
+
+    }
+    #calendar{
+        width: 400px;
+        margin-left: 950px;
+        font-size: 20px;
+    }
+    .everyday{
+        float: left;
+        width: 30px;
+        height: 30px;
+        margin-right: 25px;
+    }
+    .btn{
+        width: 30px;
+        height: 40px;
+        font-size: 30px;
+        background: rgba(255,255,255,0.2);
+    }
+    #month{
+        float: left;
+        margin-right: 45px;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+</style>
+<body class="total" onload="getCurrentTime()">
+<div id="clock">
+    <div id="h"></div>
+    <div class="dot">:</div>
+    <div id="m"></div>
+    <div class="dot">:</div>
+    <div id="s"></div>
+</div>
+<div id="calendar">
+    <div>
+        <button onclick="lastmonth()" class="btn" style="float: left; margin-left: 50px"><</button>
+        <div id="month"></div>
+        <button onclick="nextmonth()" class="btn">></button>
+    </div>
+    <div>
+        <div class="everyday">日</div>
+        <div class="everyday">一</div>
+        <div class="everyday">二</div>
+        <div class="everyday">三</div>
+        <div class="everyday">四</div>
+        <div class="everyday">五</div>
+        <div class="everyday">六</div>
+    </div>
+    <div id="day"></div>
+</div>
+<script>
+    //时钟的js代码
+        var hour = document.getElementById('h');
+        var minute = document.getElementById('m');
+        var second = document.getElementById('s');
+        function getCurrentTime() {
+            var date = new Date();
+            var h = date.getHours();
+            var m = date.getMinutes();
+            var s = date.getSeconds();
+            if (h < 10) h = "0" + h;
+            if (m < 10) m = "0" + m;
+            if (s < 10) s = "0" + s;
+            hour.innerHTML = h;
+            minute.innerHTML = m;
+            second.innerHTML = s;
+        }
+        setInterval("getCurrentTime()", 1000);
+</script>
+<script>
+    //获取当前的年月日
+    var today = new Date();
+    var year = today.getFullYear();
+    var month = today.getMonth()+1;
+    var day = today.getDate();
+    var alldays = 0;  //先赋值当月的总月数为0
+    //计算当月一共有多少天
+    function count() {
+        if (month != 2) {
+            if ((month == 4) || (month == 6) || (month == 9) || (month == 11)) {
+                alldays = 30;
+            }
+            else {
+                alldays = 31;
+            }
+        }
+        else {
+            if (((year % 4) == 0 && (year % 100 ) != 0) || (year % 400 == 0)) {
+                alldays = 29;
+            }
+            else {
+                alldays = 28;
+            }
+        }
+    }
+        //该函数用来显示标题的年月信息
+        function showMonth(){
+            var head = document.getElementById('month');
+            head.innerHTML = year + "年" + month + "月"; 
+        }
+        //显示当月的日历
+        function showDate() {
+            //调用函数
+            showMonth();
+            count();
+            //获取本月第一天的日期对象
+            var firstday = new Date(year , month-1 , 1);
+            //用getDay函数获取本月第一天是星期几
+            var today=firstday.getDay();
+            //动态添加html元素
+            var daynow=document.getElementById('day');
+            daynow.innerHTML = "";
+            //如果本月第一天不是星期日的话就要用空白补全该元素
+             if(today != 0){
+                 for(i=0; i<today; i++){
+                     var dayelement = document.createElement('div');
+                     dayelement.className = 'everyday';
+                     daynow.appendChild(dayelement); //appendChild()方法向节点的子节点的列表的末尾添加元素
+                 }
+             }
+             //使用循环语句把当前月份所有的日期对应添加进去
+             for(j=1; j<=alldays; j++){
+                 var dayelement = document.createElement('div');
+                 dayelement.className = 'everyday';
+                 dayelement.innerHTML = j +"";
+
+                 if(j == day){
+                     dayelement.style.color='red';
+                 }
+                 daynow.appendChild(dayelement);
+             }
+        }
+        showDate();
+        function lastmonth() {
+            if(month > 1){
+                month = month-1;
+            }
+            else {
+                month = 12;
+                year = year - 1;
+            }
+            showDate();
+        }
+       function  nextmonth() {
+            if(month < 12){
+                month = month + 1;
+            }
+            else {
+                month = 1;
+                year = year +1
+            }
+          showDate();
+       }
+</script>
+</body>
+</html>
